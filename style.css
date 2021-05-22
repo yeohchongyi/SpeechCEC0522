@@ -1,0 +1,28 @@
+body {
+  background: linear-gradient(to right, #73b504, #EFFD5F);
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  background-color: #296d98;
+  color: #fff;
+  font-size: 15px;
+  padding: 8px 20px;
+  margin: 0 3px 5px 0;
+  border: 0;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+#text {
+  border: 2px rgb(255, 255, 255) solid;
+  border-radius: 2px;
+  overflow-y: scroll;
+}
